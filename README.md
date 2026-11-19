@@ -91,6 +91,20 @@ AI に作業を任せている間に、進み具合を一目で見られる作�
 
 詳細は [glass-cockpit/README.md](glass-cockpit/README.md) を参照してください。
 
+### copilot-consultation
+
+Claude Codeから GitHub Copilot CLI を呼び出し、セカンドオピニオンを求めるスキルです。Copilotの回答をClaude Codeが確かめ、自分の見解と並べて報告します。
+
+前提: GitHub Copilot CLIがインストールされ、ログイン済みであること。
+
+作業中に「copilotと相談して」「copilotにこのdiffをレビューしてもらって」と伝えると使えます。
+
+```bash
+/plugin install copilot-consultation@enokizako-agent-plugins
+```
+
+詳細は [copilot-consultation/README.md](copilot-consultation/README.md) を参照してください。
+
 ## 開発
 
 clone したリポジトリを、ローカルのマーケットプレイスとして登録して試します。ローカルから登録したプラグインは、ソースをその場で読み込むので、編集は次のセッションか `/reload-plugins` で反映されます。

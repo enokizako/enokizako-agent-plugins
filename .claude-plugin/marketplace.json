@@ -17,6 +17,16 @@
       },
       "license": "MIT",
       "keywords": ["dashboard", "tasks", "cost", "autonomous"]
+    },
+    {
+      "name": "copilot-consultation",
+      "source": "./copilot-consultation",
+      "description": "GitHub Copilot CLIにセカンドオピニオンを求めるスキル。「copilotと相談して」「copilotに聞いて」で発動する。",
+      "author": {
+        "name": "enokizako"
+      },
+      "license": "MIT",
+      "keywords": ["copilot", "github", "consultation", "second-opinion"]
     }
   ]
 }
