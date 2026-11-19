@@ -1,0 +1,11 @@
+{
+  "name": "copilot-consultation",
+  "version": "0.1.0",
+  "description": "GitHub Copilot CLIにセカンドオピニオンを求めるスキル。「copilotと相談して」「copilotに聞いて」で発動する。",
+  "author": {
+    "name": "enokizako"
+  },
+  "homepage": "https://github.com/enokizako/enokizako-agent-plugins/tree/main/copilot-consultation",
+  "repository": "https://github.com/enokizako/enokizako-agent-plugins",
+  "license": "MIT"
+}
